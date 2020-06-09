@@ -1,0 +1,6 @@
+def count_vowels(word):
+  count_num = 0
+  for char in word:
+  if char in "aeiou":
+    count_num = count_num + 1
+  return count_num
